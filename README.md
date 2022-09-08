@@ -1,6 +1,6 @@
 # PNPM Image for Google Cloud Build and Gitlab CI
 
-This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need an image with pnpm.
+This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need an image with [pnpm](https://pnpm.io/).
 
 ## Download the PNPM Image
 

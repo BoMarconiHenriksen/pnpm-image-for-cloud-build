@@ -32,7 +32,7 @@ steps:
 An example of test coverage in Gitlab CI with the pnpm image.
 
 ```yaml
-image: bomarconi/pnpm:node-lts-0.4
+image: bomarconi/pnpm:latest
 
 stages:
   - test-unit
@@ -52,4 +52,11 @@ test-unit:
     paths:
       - frontend/coverage
     expire_in: 30 days
+```
+
+## Build Image
+
+```bash
+git tag -a v1.0.2
+git push v1.0.2
 ```

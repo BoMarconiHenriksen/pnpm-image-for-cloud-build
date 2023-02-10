@@ -2,6 +2,11 @@
 
 This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need an image with [pnpm](https://pnpm.io/).
 
+## Latest Versions
+
+NodeJS: 18.14.0-bullseye
+PNPM: 7.27.0
+
 ## Download the PNPM Image
 
 It's possible to download the image here <https://hub.docker.com/r/bomarconi/pnpm>

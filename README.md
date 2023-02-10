@@ -2,9 +2,18 @@
 
 This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need an image with [pnpm](https://pnpm.io/).
 
-## Latest Versions
+## Latest Versions and Tags
+
+Latest version is using:
 
 NodeJS: 18.14.0-bullseye
+
+PNPM: 7.27.0
+
+The image `pnpm:node-lts-0.4` is using:
+
+NodeJS: 16.19.0-buster
+
 PNPM: 7.27.0
 
 ## Download the PNPM Image

@@ -1,3 +1,3 @@
-FROM node:lts
+FROM node:18.14.0-bullseye
 
-RUN npm install -g pnpm@7.13.5
+RUN npm install -g pnpm@7.27.0

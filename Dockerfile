@@ -1,3 +1,3 @@
-FROM node:16.19.0-buster
+FROM node:18.15.0
 
-RUN npm install -g pnpm@7.27.0
+RUN npm install -g pnpm@7.30.0

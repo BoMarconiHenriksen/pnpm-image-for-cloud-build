@@ -33,13 +33,13 @@ jobs:
       uses: docker/build-push-action@v3
       with:
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:node-lts-0.4
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:node-lts-0.9
 
-    # - name: Build and push latest version
-    #   uses: docker/build-push-action@v3
-    #   with:
-    #       push: true
-    #       tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:latest
+    - name: Build and push latest version
+      uses: docker/build-push-action@v3
+      with:
+          push: true
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:latest
 
     - name: push README to Dockerhub
       uses: christian-korneck/update-container-description-action@v1

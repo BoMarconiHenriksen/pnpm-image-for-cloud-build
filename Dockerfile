@@ -1,3 +1,3 @@
-FROM node:18.16.0
+FROM node:20.2.0
 
 RUN npm install -g pnpm@8.5.0

@@ -33,7 +33,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:node-lts-0.13
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:node-lts-0.14
 
     - name: Build and push latest version
       uses: docker/build-push-action@v3

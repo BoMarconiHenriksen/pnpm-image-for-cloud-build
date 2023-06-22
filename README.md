@@ -6,7 +6,7 @@ This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need a
 
 Latest version is using:
 
-NodeJS: 18.16.0
+NodeJS: 18.16.1
 
 PNPM: 8.6.3
 

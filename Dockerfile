@@ -1,3 +1,3 @@
 FROM node:18.16.1
 
-RUN npm install -g pnpm@8.6.5
+RUN npm install -g pnpm@8.6.6

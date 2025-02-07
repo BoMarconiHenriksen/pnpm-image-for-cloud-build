@@ -2,7 +2,7 @@
 
 This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need an image with [pnpm](https://pnpm.io/).
 
-## Latest Versions and Tags
+## Latest Version and Tags
 
 Latest version is using:
 
@@ -15,6 +15,14 @@ The image `pnpm:node-lts-0.4` is using:
 NodeJS: 16.19.0-buster
 
 PNPM: 7.27.0
+
+## Tag node-lts-0.3.2
+
+This is used for testing access to Gitlab private package registry.
+
+NodeJS: 22.13.1
+
+PNPM: 10.2.1
 
 ## Download the PNPM Image
 

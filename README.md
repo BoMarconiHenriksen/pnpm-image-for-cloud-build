@@ -6,23 +6,15 @@ This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need a
 
 Latest version is using:
 
-NodeJS: 18.16.1
+NodeJS: 22.14.0
 
-PNPM: 9.1.1
+PNPM: 10.4.1
 
 The image `pnpm:node-lts-0.4` is using:
 
 NodeJS: 16.19.0-buster
 
 PNPM: 7.27.0
-
-## Tag node-lts-0.3.2
-
-This is used for testing access to Gitlab private package registry.
-
-NodeJS: 22.13.1
-
-PNPM: 10.2.1
 
 ## Download the PNPM Image
 
@@ -67,18 +59,11 @@ test-unit:
   before_script:
     - cd frontend
   script:
-    - pnpm install
+    - pnpm install --no-frozen-lockfile
     - pnpm test:unit
   artifacts:
     when: always
     paths:
       - frontend/coverage
     expire_in: 30 days
-```
-
-## Build Image
-
-```bash
-git tag -a v1.0.2
-git push v1.0.2
 ```

@@ -8,7 +8,7 @@ Latest version is using:
 
 NodeJS: 22.14.0
 
-PNPM: 10.7.0
+PNPM: 10.9.0
 
 The image `pnpm:node-lts-0.4` is using:
 

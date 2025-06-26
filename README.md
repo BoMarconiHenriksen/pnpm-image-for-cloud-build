@@ -6,9 +6,9 @@ This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need a
 
 Latest version is using:
 
-NodeJS: 22.14.0
+NodeJS: 22.17.0
 
-PNPM: 10.9.0
+PNPM: 10.12.3
 
 The image `pnpm:node-lts-0.4` is using:
 

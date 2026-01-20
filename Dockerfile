@@ -1,3 +1,3 @@
-FROM node:24.11.1
+FROM node:25.4.0
 
 RUN npm install -g pnpm@10.22.0

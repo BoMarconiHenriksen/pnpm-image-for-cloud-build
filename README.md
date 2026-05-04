@@ -6,9 +6,11 @@ This image can be used in `Google's Cloud Build` and `Gitlab's CI` if you need a
 
 Latest version is using:
 
-NodeJS: 24.11.1
+NodeJS: 24.15.0
 
-PNPM: 10.22.0
+PNPM: 11.0.4
+
+Migration from Pnpm version 10 to version 11 https://pnpm.io/11.x/migration
 
 The image `pnpm:node-lts-0.4` is using:
 

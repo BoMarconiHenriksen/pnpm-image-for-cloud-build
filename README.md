@@ -8,7 +8,7 @@ Latest version is using:
 
 NodeJS: 24.15.0
 
-PNPM: 11.0.4
+PNPM: 11.0.5
 
 Migration from Pnpm version 10 to version 11 https://pnpm.io/11.x/migration
 

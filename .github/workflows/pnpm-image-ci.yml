@@ -29,17 +29,13 @@ jobs:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
-    - name: Build and push version
+    - name: Build and push version and latest
       uses: docker/build-push-action@v3
       with:
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:node-lts-2.0.2
-
-    - name: Build and push latest version
-      uses: docker/build-push-action@v3
-      with:
-          push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:latest
+          tags: |
+            ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:node-lts-2.0.3
+            ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:latest
 
     - name: push README to Dockerhub
       uses: christian-korneck/update-container-description-action@v1
